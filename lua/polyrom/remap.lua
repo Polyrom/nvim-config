@@ -6,6 +6,7 @@ vim.keymap.set({'n', 'x'}, 'cv', '"+p')
 vim.keymap.set({'n', 'x'}, 'x', '"_x')
 vim.keymap.set('n', '<leader>a', ':keepjumps normal! ggVG<cr>')
 vim.keymap.set('n', '<leader>ot', ':lua OpenTerminalBuffer()<cr>')
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
 
 -- opens terminal in a down split 10% of the sreen size
 function OpenTerminalBuffer()
