@@ -1,6 +1,6 @@
-local nightfly = require'lualine.themes.nightfly'
+local gruvbox = require'lualine.themes.gruvbox'
 
 require('lualine').setup {
-    options = { theme  = nightfly },
-    extensions = { 'nvim-tree' }
+    options = { theme = gruvbox},
+    --extensions = { 'nvim-tree' }
 }

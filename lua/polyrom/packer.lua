@@ -13,7 +13,9 @@ return require('packer').startup(function(use)
       requires = { {'nvim-lua/plenary.nvim'} }
   }
 
-  use { 'catppuccin/nvim', as = 'catppuccin' }
+--  use { 'catppuccin/nvim', as = 'catppuccin' }
+
+  use { "ellisonleao/gruvbox.nvim" }
 
   use( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'} )
 
@@ -42,5 +44,7 @@ return require('packer').startup(function(use)
       'nvim-lualine/lualine.nvim',
       requires = { 'nvim-tree/nvim-web-devicons', opt = false }
   }
+
+  use( 'Olical/conjure' )
 
 end)

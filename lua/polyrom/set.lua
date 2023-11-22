@@ -18,6 +18,8 @@ vim.opt.hlsearch = false
 vim.opt.incsearch = true
 --colors
 vim.opt.termguicolors = true
+--netrw info header removed
+vim.g.netrw_banner = 0
 --misc
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
